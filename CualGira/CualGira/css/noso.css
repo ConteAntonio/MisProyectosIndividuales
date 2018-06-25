@@ -1,0 +1,87 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-color: #00183f;
+     overflow-x: hidden; 
+    overflow-y: hidden;
+    background-image: url("../img/f_home.png");
+    color:white;
+
+}
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+     background-color: #000f29;
+     position: absolute;
+ width: 100%;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+
+
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+   background-color:#00163b;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tablinks{
+ width: 14%;
+}
+iframe[seamless] { 
+    display: block;
+}
+button{
+	
+	color:white;
+}
+
+.mapa{
+	position: relative;
+	left: 30%;
+	
+}
+
+content{
+    position: absolute;
+    top:10%;
+   
+    background-color: #00183f;
+    -webkit-box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+}
+
+.this{
+    font-size: 18px;
+    margin: 3%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-size: 36px;
+}

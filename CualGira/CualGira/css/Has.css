@@ -1,0 +1,27 @@
+html, body {
+    margin:0;
+    padding:0;
+    	height: 100%;
+    	background-color: #00183f;
+    	 overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.Body{
+	margin:0;
+}
+.shake-slow{
+	 position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 240px;
+      	border-radius:100%;
+  	 -webkit-box-shadow: 51px 23px 22px 16px rgba(0,0,0,0.55);
+-moz-box-shadow: 51px 23px 22px 16px rgba(0,0,0,0.55);
+box-shadow: 51px 23px 22px 16px rgba(0,0,0,0.55);
+ 
+  }
+

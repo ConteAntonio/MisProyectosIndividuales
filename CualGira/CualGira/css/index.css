@@ -1,0 +1,49 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-color: #00183f;
+     overflow-x: hidden; 
+    overflow-y: hidden;
+  background-image: url("../img/f_index.png");
+}
+
+.shake-slow{
+	 position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 240px;
+    height: 240px;
+      	border-radius:100%;
+  	 -webkit-box-shadow: 51px 23px 22px 16px rgba(0,0,0,0.55);
+-moz-box-shadow: 51px 23px 22px 16px rgba(0,0,0,0.55);
+box-shadow: 51px 23px 22px 16px rgba(0,0,0,0.55);
+ transition:  1s linear ;
+ 
+  }
+.shake-slow:hover{
+  width: 260px;
+    height: 260px;
+}
+
+.PublicB{
+  border: none; 
+ background-color: #c1c1c1;
+   margin: 0; padding: 0; border: none;
+   width: 100%;
+   height: 6%;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   font-style: italic;
+   color: grey;
+    border: none;
+    font-size: 16px;
+
+}
+.p{
+    transform: uppercase;
+  margin: auto;
+}

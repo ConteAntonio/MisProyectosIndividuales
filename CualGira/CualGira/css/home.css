@@ -1,0 +1,72 @@
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-image: url("../img/f_home.png");
+     overflow-x: hidden; 
+    overflow-y: hidden;
+
+}
+
+body{
+	 background: linear-gradient(
+    to right, 
+    #00053a 0%, 
+   #00053a 50%, 
+   #00183f 50%, 
+    #00183f  100%
+  );
+
+}
+/* Pen-specific styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.25rem;
+  font-family: arial;
+    height:100%;
+  text-shadow: 0 2px 2px #b6701e;
+}
+
+
+img{
+width: 35%;
+height: 35%;
+position: absolute;
+border-radius:100%;
+   
+top: 28%;
+  left: 28%;
+  -webkit-box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+
+ 
+  }
+
+section {
+  color: #fff;
+  text-align: center;
+}
+
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}

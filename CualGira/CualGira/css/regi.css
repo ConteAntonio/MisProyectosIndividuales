@@ -1,0 +1,62 @@
+body{
+	  background-image: url("../img/f_index.png");
+		color: white;
+		width: 100%;
+		font-family: arial;
+}
+
+.box{
+	height: 15%;
+	left:10%;
+	bottom: 15%;
+
+	position: relative;
+	  width: 80%;
+}
+
+.text{
+	top:5%;
+		bottom: 15%;
+
+	background-color: #000619;
+	width: 100%;
+	 margin:0;
+    padding:0;
+    height: 35px;
+    text-align: center;
+}
+content{
+	
+
+	top:5%;
+	height: 75%;
+	  position: absolute;
+	  width: 50%;
+	  left: 30%;
+	 border-style: solid;
+	 border-color: #000a2a;
+	 background-color: #00124e;
+	-webkit-box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 25px 40px 0px rgba(0,0,0,0.75);
+}
+
+
+.submit{
+		
+	bottom:auto;
+	top:100%;
+ 	position: absolute;
+  	left: 46%;
+  		background-color: #000a2a;
+  	color:white;
+}
+.submit2{
+			background-color: #000a2a;
+  	color:white;
+	bottom:15%;
+	top:5%;
+ 	position: absolute;
+  	left: 45%;
+  	top:90%;
+}
